@@ -1,0 +1,103 @@
+/*
+Theme Name: Business Consult
+Template: agency-starter
+Version: 1.0.8
+Requires PHP: 5.6
+Tested up to: 5.6
+Author: wpbusinessthemes
+Theme URI:https://wpbusinessthemes.com/product/agency-starter-theme/
+Author URI: https://wpbusinessthemes.com/
+Description: Business Consult is a fully customizable theme, which You can use to develop any business site, hotel, travel agency, blog, portfolio, online store, shopping cart and eCommerce websites. The theme uses bootstrap framework and responsive design will render very well on any viewing devices. You can use header image, WooCommerce features and hero content to highlight your business details. More details: https://wpbusinessthemes.com/product/agency-starter-theme/
+Tags: one-column,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,flexible-header,microformats,post-formats,rtl-language-support,sticky-post,threaded-comments,translation-ready,blog,e-commerce,theme-options,full-width-template
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:business-consult
+*/
+
+.center-text {
+	text-align:center;
+}
+
+.box-layout-style #top-banner img {
+	width:100%;
+}
+
+.top-banner {
+	margin-bottom:10px;
+}
+
+.menu-social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-navigation {
+    float: initial;
+}
+
+.site-footer {
+    padding: 1em 0 1em;
+}
+
+.site-footer .social-navigation {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.site-header .contact-info .fa {
+    font-size: 1.2em;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 50%;
+    min-width: 32px;
+    margin: 0px;
+    text-align: center;
+}
+
+.error-404.not-found {
+	text-align:center;
+}
+
+#secondary .widget {
+	box-shadow: 1px 3px 7px #ececec;
+	border: 1px solid #e8e8e8;
+	background: white;
+}
+
+#featured_slider .carousel-navigation .carousel-next {
+    right: 24px;
+}
+
+
+#featured_slider .carousel-navigation a {
+	background-color: #eeecec5e;
+    border-radius: 24px;
+}
+
+
+
+/* shape devider */
+.custom-shape-divider-bottom-1598097848 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1598097848 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 55px;
+}
+
+.custom-shape-divider-bottom-1598097848 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.site-header .contact-ribbon {
+    min-height: 34px;
+}
